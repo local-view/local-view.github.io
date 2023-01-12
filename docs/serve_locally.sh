@@ -1,1 +1,1 @@
-bundle exec jekyll serve --port 9000
+bundle exec jekyll serve --port 9000 --source .
