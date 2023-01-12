@@ -26,9 +26,9 @@ From the repository, you can download it in a number of formats depending on you
 
 **Step 2.** Install the [`dataverse`](https://cran.r-project.org/web/packages/dataverse/index.html) package on R.
 
-```
+<pre>
 remotes::install_github("iqss/dataverse-client-r")
-```
+</pre>
 
 **Step 3.** Load the package in R and set the home server and your API token.
 
