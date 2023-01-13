@@ -22,7 +22,7 @@ title: LocalView
 <br>
 <b>This database is currently under development (version alpha). If you are interested in learning more, please contact Soubhik Barari (<a href="mailto:sbarari@g.harvard.edu" class="alert-link">sbarari@g.harvard.edu</a>) or Tyler Simko (<a href="mailto:tsimko@g.harvard.edu" class="alert-link">tsimko@g.harvard.edu</a>).</b>
 <br><br>
-<h2>Summary</h2>
+<hr><h2><b>Summary</b></h2>
 At present, the database covers <mark>139,616 videos</mark> of public meetings <mark>1,012 places</mark> and <mark>2,861</mark> distinct governments across the United States between <mark>2005-2022</mark>. The map below provides a summary of the geographic coverage in the sample.
 <div align="center">
     <br><br>          
@@ -633,7 +633,7 @@ Below are a few tables that summarise the current composition of the database.
     </tbody>
 </table>
 <span id="download"></span>
-<h2>Download</h2>
+<hr><h2><b>Download</b></h2>
 <!-- see download.md -->
 <p>The LocalView dataset is (soon to be) hosted on <a href="https://dataverse.harvard.edu/dataverse/#" target="_blank" class="alert-link">Harvard Dataverse</a>.</p>
 <p>From the repository, you can download it in a number of formats depending on your needs including:</p>
@@ -643,10 +643,10 @@ Below are a few tables that summarise the current composition of the database.
     <li><code class="language-plaintext highlighter-rouge">.parquet</code> (for more advanced users who care about efficiency)</li>
     <li><code class="language-plaintext highlighter-rouge">.json</code> or <code class="language-plaintext highlighter-rouge">.tsv</code> (for everyone else)</li>
 </ul>
-<h3 id="option-1-download-meetings-manually">Option 1: Download meetings manually</h3>
+<h4 id="option-1-download-meetings-manually">Option 1: Download meetings manually</h4>
 <p><strong>Step 1.</strong> Go to <a href="https://dataverse.harvard.edu/dataverse/#" target="_blank" class="alert-link">dataverse.harvard.edu/dataverse/placeholder</a>.</p>
 <p><strong>Step 2.</strong> Either download the individual subset and format of meetings ( <code class="language-plaintext highlighter-rouge">meetings.&lt;subset&gt;.&lt;format&gt;</code> ) that you would like or download the entire repository as a single <code class="language-plaintext highlighter-rouge">.zip</code> file.</p>
-<h3 id="option-2-download-meetings-using-r">Option 2: Download meetings using R</h3>
+<h4 id="option-2-download-meetings-using-r">Option 2: Download meetings using R</h4>
 <p><strong>Step 1.</strong> Make an account on <a href="https://dataverse.harvard.edu">Harvard Dataverse</a>. Log in and retrieve (or re-generate) your <a href="https://dataverse.harvard.edu/dataverseuser.xhtml?selectTab=apiTokenTab">API Token</a>.</p>
 <p><strong>Step 2.</strong> Install the <a href="https://cran.r-project.org/web/packages/dataverse/index.html"><code class="language-plaintext highlighter-rouge">dataverse</code></a> package on R.</p>
 <div class="language-plaintext highlighter-rouge">
@@ -673,7 +673,7 @@ Sys.setenv("DATAVERSE_SERVER" = "https://dataverse.harvard.edu",
 </code></pre>
     </div>
 </div>
-<h3 id="option-3-download-meetings-using-python">Option 3: Download meetings using Python</h3>
+<h4 id="option-3-download-meetings-using-python">Option 3: Download meetings using Python</h4>
 <p><strong>Step 1.</strong> Make an account on <a href="https://dataverse.harvard.edu">Harvard Dataverse</a>. Log in and retrieve (or re-generate) your <a href="https://dataverse.harvard.edu/dataverseuser.xhtml?selectTab=apiTokenTab">API Token</a>.</p>
 <p><strong>Step 2.</strong> Install the <a href="https://pydataverse.readthedocs.io/en/latest/index.html"><code class="language-plaintext highlighter-rouge">pyDataverse</code></a> package on Python.</p>
 <div class="language-plaintext highlighter-rouge">
@@ -709,8 +709,8 @@ with open("meetings.2016.csv.zip", "wb") as f:
 </code></pre>
     </div>
 </div>
-<span id="search"></span>
-<h2>Search</h2>
+<hr><span id="search"></span>
+<h2><b>Search</b></h2>
 <span class="text-muted"><i class="fas fa-tools"></i> Coming Soon! <i class="fas fa-tools"></i></span>
 
 
