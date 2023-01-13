@@ -75,7 +75,7 @@ h1 { /* like `display-3` but actually responsive */
 }
 
 iframe{/*Perform to all iframes*/
-  width: 50%;
+  width: 70%;
   height: 300px;
   margin: 10px;
 }
