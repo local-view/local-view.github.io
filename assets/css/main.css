@@ -73,3 +73,18 @@ h1 { /* like `display-3` but actually responsive */
     font-size: 1rem;
   }    
 }
+
+iframe{/*Perform to all iframes*/
+  width: 50%;
+  height: 300px;
+  margin: 10px;
+}
+@media only screen and (max-width: 900px) {/*When screen size is below 900px*/
+  .container{/*Make the form and map stack over each other*/
+      flex-direction: column;
+      /*flex-direction: column-reverse;*//* If you want them to stack the other way around*/ 
+  }
+  iframe{
+      width: 100%;/*Make iframes take up entire screen since they are no longer next to each other*/
+  }
+}
