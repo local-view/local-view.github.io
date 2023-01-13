@@ -1,3 +1,3 @@
-# localview.net
+# `localview.net`
 
 Website for LocalView database.  
