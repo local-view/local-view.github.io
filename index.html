@@ -7,11 +7,20 @@ title: LocalView
     <h1 class="text-white box-text-shadow" style="font-size: 34">LocalView</h1>
     <h2 class="p-3 mb-2 bg-dark text-white">Data science tools to study local politics and policy-making in the United States.</h2>
 </div>
+
 <br>
+ <p class="lead" align="center">
+    <!-- <small>QUICK LINKS:</small><br> -->
+    <a class="btn btn-primary btn-lg" href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/NJTBEM" role="button">Download</a>
+    <a class="btn btn-primary btn-lg" href="https://dataverse.harvard.edu/file.xhtml?fileId=6935107&version=5.0#codebook.md" role="button">Codebook</a>
+    <a class="btn btn-primary btn-lg disabled" href="#" role="button" aria-disabled="true">Paper</a>
+  </p>
+<br>
+
 <!-- <h2>About</h2> -->
 <h4>
     LocalView is a database co-created by <a href="https://soubhikbarari.com/" class="alert-link">Soubhik Barari</a> and <a href="https://tylersimko.com/" class="alert-link">Tyler Simko</a> to advance the study of local government in the United States.<br><br>
-    It is the <b>largest existing dataset of local government public meetings</b> — the central policy-making process in American local government — as they are captured on video <small>(see below)</small>.
+    It is the <b>largest dataset of local government public meetings</b> — the central policy-making process in American local government — as they are captured on video <small>(see below)</small>.
 </h4>
 <span id="summary"></span>
 
@@ -21,14 +30,6 @@ title: LocalView
 </p>
 <b>This database is currently under development. If you are interested in learning more, please contact Soubhik Barari (<a href="mailto:sbarari@g.harvard.edu" class="alert-link">sbarari@g.harvard.edu</a>) or Tyler Simko (<a href="mailto:tsimko@g.harvard.edu" class="alert-link">tsimko@g.harvard.edu</a>).</b>
 
-<br><br>
- <p class="lead" align="center">
-    <!-- <small>QUICK LINKS:</small><br> -->
-    <a class="btn btn-primary btn-lg" href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/NJTBEM" role="button">Download</a>
-    <a class="btn btn-primary btn-lg" href="https://dataverse.harvard.edu/file.xhtml?fileId=6935107&version=5.0#codebook.md" role="button">Codebook</a>
-    <a class="btn btn-primary btn-lg disabled" href="#" role="button" aria-disabled="true">Paper</a>
-  </p>
-<br>
 <hr><h2><b>Summary</b></h2>
 At present, the database covers <mark>139,616 videos</mark> of public meetings <mark>1,012 places</mark> and <mark>2,861</mark> distinct governments across the United States between <mark>2006-2022</mark>. The map below provides a summary of the geographic coverage in the sample.
 <div align="center">
@@ -42,7 +43,7 @@ LocalView is continuously collected, processed, and publicly for analysis throug
     <img src="assets/imgs/pipeline_paper.png" alt="Pipeline" class=" img-thumbnail" style='border:none; width: 75%'>
 </div>
 <br>
-Below are a few tables that summarise the current composition of the database.
+Below are a few tables that summarise the current composition of the database**.
 <br><br>
 
     <table class="table table-sm table-hover" style="font-size: 10px;">
@@ -640,6 +641,8 @@ Below are a few tables that summarise the current composition of the database.
         </tr>
     </tbody>
 </table>
+**<i>LocalView has meeting data for over 1,000 cities in the United States, but many cities do not post records of their meeting videos on YouTube. In particular, several large cities that researchers may be interested in such as New York City, host meeting videos on their own private paid services. For example, New York City hosts meeting videos <a href="https://council.nyc.gov/livestream/">here</a>. We hope to integrate these sources into a future release of LocalView, but for now rely on YouTube for our video source.</i>
+
 <span id="download"></span>
 <hr><h2><b>Download</b></h2>
 <!-- see download.md -->
