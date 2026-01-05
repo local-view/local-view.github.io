@@ -1,0 +1,50 @@
+/* HERO SECTION (NO BACKGROUND NOW) */
+.hero {
+    padding: 100px 0 80px;
+}
+
+a {
+    color: #E07829;
+}
+
+a:hover {
+    color: blue;
+}
+
+.btn-primary {
+    --bs-btn-bg: #E07829;
+    --bs-btn-border-color: #E07829;
+}
+
+/* CTA BACKGROUND PANEL */
+.cta-panel {
+    background-image: url("../imgs/city-hall-park.jpg");
+    /* PLACEHOLDER */
+    background-size: cover;
+    background-position: center;
+    padding: 35px 40px;
+    border-radius: 10px;
+    max-width: 900px;
+    position: relative;
+}
+
+/* Dark overlay */
+.cta-panel::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+    border-radius: 10px;
+}
+
+/* Ensure buttons are above overlay */
+.cta-panel>div {
+    position: relative;
+    z-index: 1;
+}
+
+/* Pipeline image */
+.pipeline img {
+    max-width: 1100px;
+    width: 100%;
+}
